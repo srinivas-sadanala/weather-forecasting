@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Weathe forecasting</title>
+    <link href="final project.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <div class="menu">
+        <div class="nav">
+            <a href="#home"><i class="fa-solid fa-house"></i>Home</i></a>
+            <a href="#abt"><i class="fa-solid fa-address-card"></i>About</a>
+            <a href="#cnt"> <i class="fa-solid fa-phone"></i>Contact Us</a>
+        </div>
+    </div>
+</head>
+
+<body>
+    <div class="s">
+        <h1>srinu</h1>
+    </div>
+    <div id="home">
+        <div class="main">
+            <div class="bg">
+                <div class="sub_main">
+                    <input placeholder="" id="inpValue" />
+                    <label>Enter location name</label>
+                    <button id="btn" onclick="Add()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <div id="list" class="hidden">
+                        <span class="option">amalapuram</span><br><br>
+                        <span class="option">kakinada</span><br><br>
+                        <span class="option">tuni</span><br><br>
+                        <span class="option">hyderabad</span><br><br>
+                    </div>
+                </div>
+                <div class="date">
+                    <p id="day">01</p>
+                    <p id="date">01</p>
+                    <p id="month">/00/</p>
+                </div>
+                <div class="cntt">
+                    <h1>search history</h1><br>
+                    <h3 id="his">kakinada</h3>
+                </div>
+                <div class="wether">
+                    <div class="weather">
+                        <img src="images/sunny.gif" id="weather_img"></img>
+                        <div>
+                            <h1 id="city">vizag</h1>
+                            <h1 id="temp">33°C</h1>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="mid">
+                            <img src="images/wind.gif" alt="wind">
+                            <p>wind</p>
+                            <p id="wind">2km/hr</p>
+                        </div>
+                        <div class="mid2">
+                            <img src="images/humidity.gif" alt="humidity">
+                            <p>humidity</p>
+                            <p id="humidity">2%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="abt">
+                <h1>ABOUT OUR PROJECT</h1>
+                <details>
+                    <summary>Overview of the Project</summary>
+                    <pre>
+                        Weather prediction is the application of technology to predict the actionof the atmosphere for a given location. It is becoming increasingly vital for business, agriculturists, farmers, disaster management 
+                and relatedorganizations to understand the natural phenomena. The art of weather prediction began with using the reoccurring astronomical and meteorologicalevents to help them to monitor the seasonal changes in
+                the weather.Throughout these centuries, this attempt is madeto produce forecasts basedon weather changes and personal observations. Weather prediction has beenone of the most interesting domains.
+                The scientists are been trying to forecast the meteorological data usinga big set of methods, some of them more accurate than others. Weatherforecasting is anessential application in meteorology and has been 
+                one of the most scientifically challenging problems around the world. Weather condition is a state of atmosphere at given time and the weather parameters are temperature, humidity, and wind speed. The accuracy 
+                of the prediction depends on knowledge of prevailing weather condition over large areas. Weather is the non-linear and dynamic process as it varies day to day even minute to minute; the big challenge of weather is
+                data intensive and thefrenzied nature. Weather forecasting means predicting the weather and telling how theweather changes with change in time. Change in weather occurs due to movement or transfer of energy. Many 
+                meteorological patterns and features like anticyclones, depressions, thunderstorms, hurricanes and tornadoes occur due to the physical transfer of heat and moisture by convective process.
+                Clouds are formed by evaporation of water vapour. As the water cycle keepson evolving the water content in the clouds increases which in turn leads toprecipitation.
+                It is also possible to identify the different types of cloud associated withdifferent patterns of weather. These patterns help in predicting the weatherforecast.We are always with or around a weather forecast; 
+                we always carry it with us and never want to be away from it. Weather forecasting is one of the prominent topics that have influencedpeople's lives and activities over a long time. It is a kind of scientific
+                activity,contributing to the social and economic welfare in many sections of thesociety. Weather forecasts are issued to protect life and property, save life andtell us what changes to except in the atmosphere.
+                They provide vital information to a wide range of categories: agriculture, aviation, commerce,marine, advisories, etc. Forecasting can also significantly influence decisionand policymaking, construction planning, 
+                productivity and environmental risk management. People can also know and be aware of atmospheric changesthrough variables such as temperature, windspeed and direction, cloudinessand precipitation. 
+                    </pre>
+                </details>
+                <details>
+                    <summary>Aim of the project</summary>
+                    <pre>
+                        People can get accurate weather information is the main aim of thisapplication. The important issue faced in our country is climatic changes andthat can be resolved by our application 
+                    “WEATHER FORECASTING SYSTEM”.The goal of weather prediction is to provide information. People andorganizations can use to reduce weather related loses and enhanced societalbenefits, including 
+                    protection of life and property, public health and support ofeconomic prosperity and quality of life.
+                    </pre>
+                </details>
+                <details>
+                    <summary>Scope and Objective</summary>
+                    <pre>
+                        Weather forecasts are made by collecting as much data as possible about the current state of the atmosphere (particularly the temperature, humidityand wind) and using understanding of atmospheric processes
+                        (through meteorology) to determine how the atmosphere evolves in the future.
+                        However, the chaotic nature of the atmosphere and incomplete understanding of the processes mean that forecasts become less accurate asthe range of the forecast increases.
+                        To develop software for forecasting the weather involving wind speed,cloud cover, rain or snow in order to nurture the needs of people all around theglobe.
+                        To develop a weather forecasting application on which people can completely rely for their weather updates. The scope for weather forecastingsystem will keep on increasing as thetechnology progresses.
+                    </pre>
+                </details>
+
+
+                <div id="cnt">
+                    <div class="form">
+                        <h2>Get In Touch</h2>
+                        <label>FRIST NAME </label>
+                        <input type="text" id="userName" placeholder="Please enter frist name" /><br>
+                        <label>E MAIL</label>
+                        <input type="email" id="email" placeholder="Please enter email" /><br>
+                        <label>PHONE NUMBER</label>
+                        <input type="" placeholder="Please enter phone number" id="phoneNumber" /><br>
+                        <label>WHAT DO YOU HAVE IN MIND? </label>
+                        <textarea placeholder="type your Message" id="message"></textarea>
+                        <button onclick="clearFields()">Submit</button>
+                    </div>
+                    <div class="iframe">
+                        <iframe
+                            src="https://maps.google.com/maps?q=533291%20venkatapuram&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            width="600px" height="500px"> </iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </footer>
+        <script src="final project.js"></script>
+</body>
+
+</html>

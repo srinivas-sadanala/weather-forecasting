@@ -1,0 +1,337 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    z-index: 1000;
+}
+
+.menu button {
+    padding: 10px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+
+.nav {
+    width: 100%;
+    background-color: white;
+}
+
+.nav a {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.nav a i {
+    margin-right: 10px;
+}
+
+.s h1 {
+    color: white;
+}
+
+
+.bg {
+    background-image: url("images/mback.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 880px;
+    width: 100%;
+}
+
+.sub_main {
+    top: 40px;
+    position: relative;
+    margin-left: 530px;
+}
+
+
+.sub_main input {
+    font-size: 25px;
+    background-color: transparent;
+    padding: 20px 170px 20px 10px;
+    position: relative;
+}
+
+.sub_main label {
+    position: absolute;
+    right: 80%;
+    font-size: 20px;
+    top: 30%;
+    transition: 0.3s ease all;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.sub_main input:focus+label,
+.sub_main input:not(:placeholder-shown)+label {
+    top: -25px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+    border-color: black;
+}
+
+.sub_main label {
+    text-shadow: blue 2px;
+}
+
+.sub_main button i {
+    font-size: 50px;
+}
+
+.sub_main button {
+    top: 10px;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    position: relative;
+    right: 70px;
+}
+
+.date {
+    position: relative;
+    margin-left: 75%;
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    display: none;
+}
+
+#abt {}
+
+#abt h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#abt details {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#abt details summary {
+    font-size: 40px;
+}
+
+#abt details pre {
+    font-family: 'FontAwesome6 brands';
+
+}
+
+#abt h2 {
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.img {
+    display: flex;
+    margin-bottom: 160px;
+}
+
+.img-item {
+    position: relative;
+    margin-left: 80px;
+}
+
+.img img {
+    height: 350px;
+    width: 350px;
+    margin-left: 40px;
+    border-radius: 200px;
+}
+
+.img span {
+    position: absolute;
+    font-family: 'FontAwesome6 brands';
+    left: 120px;
+    top: 370px;
+    font-size: 30px;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.img-item:hover span {
+    visibility: visible;
+}
+
+
+
+.cntt {}
+
+.cntt h3 {
+    margin-left: 100px;
+}
+
+
+
+.weather {
+    position: relative;
+    margin-left: 560PX;
+    top: 70px;
+}
+
+.weather img {
+    height: 200px;
+    width: 400px;
+}
+
+.mid {
+    position: relative;
+    top: 30px;
+    left: 230px;
+}
+
+.mid img {
+    height: 200px;
+    width: 400px;
+}
+
+.mid2 {
+    position: relative;
+    top: 30px;
+    left: 600px
+}
+
+.mid2 img {
+    height: 200px;
+    width: 400px;
+}
+
+h1 {
+    margin-left: 140px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    top: 50px;
+    position: relative;
+}
+
+.mid p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.mid2 p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.wether {
+    display: none;
+}
+
+.show {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.option {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+#his li {
+    color: black;
+    list-style: none;
+    font-size: 20px;
+}
+
+#his li i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+.iframe {
+    margin-bottom: 100px;
+    margin-left: 300px;
+}
+
+
+#cnt {
+    display: flex;
+
+}
+
+#cnt label {
+    opacity: 0.3;
+}
+
+#cnt input {
+    display: flex;
+    font-size: 20px;
+    padding: 20px 130px 20px 20px;
+}
+
+#cnt textarea {
+    display: flex;
+    font-size: 20px;
+    padding: 10px 100px 30px 10px;
+}
+
+.form {
+    margin-top: 30px;
+    margin-left: 150px;
+
+}
+
+#cnt h2 {
+    margin-bottom: 40px;
+}
+
+.form button {
+    padding: 10px 30px 10px 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100;
+    top: 40px;
+}
+
+.footer a {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
